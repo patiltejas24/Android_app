@@ -82,4 +82,10 @@
         android:layout_height="wrap_content"
         android:text="change text 2 "
         android:id="@+id/change_text_button_two" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gesture"
+        android:id="@+id/gesture_button" />
 </LinearLayout>

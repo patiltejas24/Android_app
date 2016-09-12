@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BlocksOnScreen"></activity>
+        <activity android:name=".BlocksOnScreen" />
+        <activity android:name=".Gestures"></activity>
     </application>
 
 </manifest>

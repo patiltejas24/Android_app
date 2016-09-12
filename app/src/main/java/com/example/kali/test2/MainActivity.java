@@ -12,7 +12,10 @@ import android.widget.TextView;
 
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -74,6 +77,17 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
 
+        Button gesture_button = (Button) findViewById(R.id.gesture_button);
+        gesture_button.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view)
+                    {
+                        Intent intent = new Intent(findViewById(R.id.gesture_button).getContext(),Gestures.class);
+                        startActivity(intent);
+                    }
+                }
+        );
 
     }
 }
