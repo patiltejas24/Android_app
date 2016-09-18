@@ -88,4 +88,16 @@
         android:layout_height="wrap_content"
         android:text="Gesture"
         android:id="@+id/gesture_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DataBase"
+        android:id="@+id/database_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragments"
+        android:id="@+id/fragments_button" />
 </LinearLayout>

@@ -89,5 +89,30 @@ public class MainActivity extends AppCompatActivity
                 }
         );
 
+        Button database_button = (Button) findViewById(R.id.database_button);
+        database_button.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view)
+                    {
+                        Intent intent = new Intent(findViewById(R.id.database_button).getContext(),Database.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+
+        Button fragments_button = (Button) findViewById(R.id.fragments_button);
+        fragments_button.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view)
+                    {
+                        Intent intent = new Intent(findViewById(R.id.fragments_button).getContext(),Fragments.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+
+
     }
 }

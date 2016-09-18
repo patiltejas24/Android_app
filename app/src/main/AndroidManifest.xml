@@ -16,7 +16,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".BlocksOnScreen" />
-        <activity android:name=".Gestures"></activity>
+        <activity android:name=".Gestures" />
+        <activity android:name=".Database" />
+        <activity android:name=".Fragments" />
+        <activity android:name=".BottomSectionFragment"></activity>
+        <activity android:name=".TopSectionFragment"></activity>
     </application>
 
 </manifest>
